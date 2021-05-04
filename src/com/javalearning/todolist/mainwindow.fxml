@@ -10,7 +10,7 @@
 <?import javafx.scene.control.Menu?>
 <?import javafx.scene.control.MenuItem?>
 <?import javafx.scene.control.SeparatorMenuItem?>
-<BorderPane fx:controller="com.javalearning.todolist.Controller"
+<BorderPane fx:id="mainBorderPane" fx:controller="com.javalearning.todolist.Controller"
             xmlns:fx="http://javafx.com/fxml" >
 
     <top>
@@ -22,6 +22,7 @@
                     <MenuItem text="Edit"/>
                 </items>
             </Menu>
+
         </MenuBar>
     </top>
     <left>
